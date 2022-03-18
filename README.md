@@ -56,3 +56,7 @@ cmake -DPYTHON_DEFAULT_EXECUTABLE=/usr/bin/python3 -DOPENCV_GENERATE_PKGCONFIG=O
 make -j16
 
 sudo make install
+
+Ou, pode optar pelo pacote de instalação para WSL2:
+
+https://github.com/Christophe-Foyer/darknet_wsl_cuda_install_scripts
