@@ -139,7 +139,9 @@ Copie o obj.data e obj.names para Darknet/data/
 
 EXECUTAR O TREINAMENTO COM -mAP
 
-./darknet detector train data/obj.data yolo-obj.cfg yolov4.conv.137 -map
+cd darknet
+
+./darknet detector train data/obj.data yoloForBRADataset.cfg yolov4.conv.137 -map
 
 
 
