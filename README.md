@@ -131,7 +131,12 @@ Copie o TXT train.txt
 
 sudo cp train.txt /d/youruser/DetectorAnimalsInRoads/Darknet/data
 
+Crie a pasta 'images' na raiz do darknet
 execute o DescompactZip.py 
+
+Execute o comando dentro do diretorio images
+
+sudo cp *.txt ./data/labels/
 
 baixe o peso indicado no Darknet para a tranferência e coloque na raiz do Darknet
 
