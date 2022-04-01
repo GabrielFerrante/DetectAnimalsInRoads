@@ -148,6 +148,10 @@ cd darknet
 
 ./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg yolov4.conv.137 -map
 
+CASO O TREINAMENTO PARE, CONTINUE DA ONDE PAROU
+
+./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg backup/yoloForBRADataset_last.weights -map
+
 
 
 
