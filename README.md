@@ -1,4 +1,4 @@
-# DetectorAnimalsInRoads
+# DetectAnimalsInRoads
 
 # PROCESSO DE INSTALAÇÃO DO DARKNET
 
@@ -146,7 +146,7 @@ EXECUTAR O TREINAMENTO COM -mAP
 
 cd darknet
 
-./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg yolov4.conv.137 -map
+./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg yolov4.conv.137
 
 CASO O TREINAMENTO PARE, CONTINUE DA ONDE PAROU
 
