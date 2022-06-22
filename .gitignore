@@ -1,3 +1,6 @@
 *.weights
 *.zip
-darknet/
+YoloV4-Model/darknet/
+YoloV5-Model/yolov5/
+YoloV5-Model/images/
+YoloV5-Model/labels-BRA-Dataset/
