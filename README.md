@@ -1,6 +1,24 @@
 # DetectAnimalsInRoads
 
-# PROCESSO DE INSTALAÇÃO DO DARKNET
+Single-stage detectors for edge computing with CNN architecture to detect animals that suffer the most accidents on Brazilian highways.
+Using the BRA-Dataset, a specific dataset about these animals, the detectors were trained and validated in the laboratory and in controlled locations with real animals.
+
+This project is a master's project in computer science and computational mathematics at the University of São Paulo (PPG-CCMC, ICMC-USP)
+
+<details open>
+<summary>Important Links </summary>
+  
+- [INSTALL CUDA, OPENCV4 and cuDNN]
+  
+- [YOLOV4 Darknet Model]  
+  
+- [YOLOV5 Pytorch Model]
+  
+- [MORE MODELS]
+
+</details>
+
+# PROCESSO DE INSTALAÇÃO: CUDA e OPENCV4 
 
 Instalar o CUDA
 https://medium.com/geekculture/install-cuda-and-cudnn-on-windows-linux-52d1501a8805#68ce
@@ -111,7 +129,9 @@ TESTE A GPU
 python3 TestGPU.py
 
 
-# REALIZAR O TREINAMENTO
+# REALIZAR O TREINAMENTO COM DARKNET
+
+Clone o Darknet https://github.com/AlexeyAB/darknet
 
 
 transferir as imagens do repositório BRA-Dataset (realizar o clone)
@@ -153,5 +173,6 @@ CASO O TREINAMENTO PARE, CONTINUE DA ONDE PAROU
 ./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg backup/yoloForBRADataset_last.weights -map
 
 
-
+RETIRAR AS MÉTRICAS
+./darknet detector map data/obj.data cfg/yoloForBRADataset.cfg backup/yoloForBRADataset_final.weights
 
