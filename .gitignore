@@ -1,6 +1,6 @@
 *.weights
 *.zip
 *.cache
-
+*.pt
 YoloV5-Model/images/
 YoloV5-Model/labels/
