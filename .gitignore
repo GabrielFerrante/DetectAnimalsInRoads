@@ -2,5 +2,6 @@
 *.zip
 *.cache
 *.pt
+*vscode
 YoloV5-Model/images/
 YoloV5-Model/labels/

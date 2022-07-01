@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jun 24 18:05:28 2022
+# Make data base, printed on Fri Jul  1 13:13:36 2022
 
 # Variables
 
@@ -47,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:58395
+JOURNAL_STREAM = 8:92718
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -69,7 +71,7 @@ VSCODE_VERBOSE_LOGGING = true
 # environment
 LC_CTYPE = pt_BR.UTF-8
 # environment
-MANAGERPID = 1633
+MANAGERPID = 2319
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -85,7 +87,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1906,unix/usp-XPS-8940:/tmp/.ICE-unix/1906
+SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/2603,unix/usp-XPS-8940:/tmp/.ICE-unix/2603
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -95,7 +97,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = a83e8f544f134b30ac7b91dd078a1777
+INVOCATION_ID = 528a1dac16ff4adc8b597a48f4eac8c6
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -105,7 +107,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 115854
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4786
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,7 +121,7 @@ PWD = /media/usp/DATA/GabrielSFerrante/PROJETO/DetectAnimalsInRoads
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1871
+SSH_AGENT_PID = 2567
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -159,7 +161,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ff449fb6-98cd-4e13-b5c8-d95b8a222d3c.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dc8fe365-b72d-4021-8ce7-006db1b057e9.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -235,7 +237,7 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 115854
+VSCODE_PID = 4786
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -247,9 +249,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 67): 9 files, no impossibilities.
+# . (device 2050, inode 67): 11 files, no impossibilities.
 
-# 9 files, no impossibilities in 1 directories.
+# 11 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -299,15 +301,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 17 / storage = 167 B / avg = 9 B
-# current buf: size = 8162 B / used = 167 B / count = 17 / avg = 9 B
-
-# strcache performance: lookups = 20 / hit rate = 15%
-# hash-table stats:
+# strcache buffers: 1 (0) / strings = 19 / storage = 195 B / avg = 10 B
+# current buf: size = 8162 B / used = 195 B / count = 19 / avg = 10 B
  
-make: *** No rule to make target 'all'.  Stop.
 
-# Load=17/8192=0%, Rehash=0, Collisions=1/20=5%
-# Finished Make data base on Fri Jun 24 18:05:28 2022
+# strcache performance: lookups = 22 / hit rate = 13%
+# hash-table stats:
+# Load=19/8192=0%, Rehash=0, Collisions=1/22=5%
+# Finished Make data base on Fri Jul  1 13:13:36 2022
 
  
