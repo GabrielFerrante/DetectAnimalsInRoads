@@ -13,6 +13,12 @@ This project is a master's project in computer science and computational mathema
 - [YOLOV4 Darknet Model]  
   
 - [YOLOV5 Pytorch Model]
+
+- [Scaled-YOLOV4]
+
+- [YOLOR]
+
+- [YOLOX]
   
 - [MORE MODELS]
 
