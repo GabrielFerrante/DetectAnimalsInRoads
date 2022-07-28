@@ -1,0 +1,7 @@
+train: ../images/train # 118k images
+val: ../images/val # 5k images
+test:  
+
+# Classes
+nc: 5  # number of classes
+names: ['anta', 'jaguarundi', 'loboGuara', 'oncaParda', 'tamanduaBandeira'] # class names
