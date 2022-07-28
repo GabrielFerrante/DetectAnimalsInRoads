@@ -9,5 +9,5 @@ YoloV5-Model/images/
 YoloV5-Model/labels/
 YoloV4Scaled-Model/images/
 YoloV4Scaled-Model/labels/
-YoloX-Model/dataset/
-YoloX-Model/dataset_COCO_format/
+YoloX-Model/Dataset/
+YoloX-Model/Dataset_COCO_format/

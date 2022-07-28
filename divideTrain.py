@@ -9,7 +9,7 @@ def createTrain():
     # o que o codigo abaixo faz: adiciona o nome e caminho de todos as fotos (.jpg) em um txt
     
     #Todas as imagens com labels na pasta images do yolov5
-    pasta = f'./yolov5/data/images'
+    pasta = f'./YoloX-Model/Dataset/images'
     
     for diretorio, subpastas, arquivos in os.walk(pasta):
         if len(arquivos) == 0:

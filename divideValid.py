@@ -3,13 +3,13 @@ from re import L
 from shutil import move
 
 
-
+#EXECUTAR 2 VEZES O SCRIPT
 
 def createValid():
     # o que o codigo abaixo faz: adiciona o nome e caminho de todos as fotos (.jpg) em um txt
     
         
-    pasta = f'./yolov5/data/images/train'
+    pasta = f'./YoloX-Model/Dataset/images/train'
     animals = ["anta", "jaguarundi", "loboGuara", "oncaParda", "tamanduaBandeira"]
     
 
@@ -19,15 +19,21 @@ def createValid():
         if len(getValidImages()) > 0:
             print("ja tem no valid as imagens")
         else:
-            for arquivo in arquivos[int(0.8 * len(arquivos)):]:
-                if arquivo.endswith(".jpg"):
-                    os.replace(f"{pasta}/{arquivo}", f"./yolov5/data/images/val/{arquivo}")
+            
+            for animal in animals:
+                aux = []
+                for arquivo in arquivos:
+                    if arquivo.count(animal) > 0:
+                        aux.append(arquivo)
+                for arquivo in aux[int(0.8 * len(aux)):]:
+                    if arquivo.endswith(".jpg"):
+                        os.replace(f"{pasta}/{arquivo}", f"./YoloX-Model/Dataset/images/val/{arquivo}")
                    
                
     
 
 def getValidImages():
-    pastaVal = f'./yolov5/data/images/val'
+    pastaVal = f"./YoloX-Model/Dataset/images/val/"
     imagesValida = []
     for diretorio, subpastas, arquivos in os.walk(pastaVal):
         for arquivo in arquivos:
@@ -37,7 +43,7 @@ def getValidImages():
 def getValidLabels(imagens):
 
     print(len(imagens))
-    pasta = f'./yolov5/data/images/train'
+    pasta = f'./YoloX-Model/Dataset/images/train'
         
     for diretorio, subpastas, arquivos in os.walk(pasta):
         if len(arquivos) == 0:
@@ -45,7 +51,7 @@ def getValidLabels(imagens):
         else:
             for arquivo in imagens:
                 arquivo1 = arquivo.replace(".jpg",".txt")
-                os.replace(f"{pasta}/{arquivo1}", f"./yolov5/data/images/val/{arquivo1}") 
+                os.replace(f"{pasta}/{arquivo1}", f"./YoloX-Model/Dataset/images/val/{arquivo1}") 
                 
 
 

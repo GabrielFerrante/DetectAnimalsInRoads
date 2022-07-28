@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Jul  1 13:13:36 2022
+# Make data base, printed on Thu Jul 28 19:11:31 2022
 
 # Variables
 
@@ -26,8 +26,6 @@ DESKTOP_SESSION = ubuntu
 XDG_SESSION_CLASS = user
 # environment
 XDG_SESSION_TYPE = x11
-# environment
-VSCODE_LOG_NATIVE = false
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
@@ -49,7 +47,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:92718
+JOURNAL_STREAM = 8:43855
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -67,11 +65,9 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
 LC_CTYPE = pt_BR.UTF-8
 # environment
-MANAGERPID = 2319
+MANAGERPID = 1650
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -87,17 +83,15 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/2603,unix/usp-XPS-8940:/tmp/.ICE-unix/2603
+SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1924,unix/usp-XPS-8940:/tmp/.ICE-unix/1924
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
 XDG_MENU_PREFIX = gnome-
 # environment
-VSCODE_LOG_STACK = false
-# environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 528a1dac16ff4adc8b597a48f4eac8c6
+INVOCATION_ID = 28b82e61d91d4534bcf96e52028c6261
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -107,7 +101,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4786
+GIO_LAUNCHED_DESKTOP_FILE_PID = 58581
 # automatic
 %F = $(notdir $%)
 # environment
@@ -115,13 +109,11 @@ DISPLAY = :1
 # environment
 CONDA_EXE = /home/usp/anaconda3/bin/conda
 # environment
-VSCODE_PIPE_LOGGING = true
-# environment
 PWD = /media/usp/DATA/GabrielSFerrante/PROJETO/DetectAnimalsInRoads
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2567
+SSH_AGENT_PID = 1889
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -135,7 +127,7 @@ LD_LIBRARY_PATH = /usr/local/cuda-11.0/lib64:/usr/local/cuda/lib64:
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/usp/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+VSCODE_CODE_CACHE_PATH = /home/usp/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
 # environment
 LOGNAME = usp
 # environment
@@ -160,8 +152,6 @@ QT_IM_MODULE = ibus
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-dc8fe365-b72d-4021-8ce7-006db1b057e9.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -185,7 +175,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-42117c84-1.68.1-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-42117c84-1.69.2-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -237,11 +227,11 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4786
+VSCODE_PID = 58581
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=114/1024=11%, Rehash=0, Collisions=20/136=15%
+# Load=109/1024=11%, Rehash=0, Collisions=19/131=15%
 
 # Pattern-specific Variable Values
 
@@ -249,9 +239,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 67): 11 files, no impossibilities.
+# . (device 2050, inode 45457): 19 files, no impossibilities.
 
-# 11 files, no impossibilities in 1 directories.
+# 19 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -301,13 +291,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 19 / storage = 195 B / avg = 10 B
-# current buf: size = 8162 B / used = 195 B / count = 19 / avg = 10 B
- 
+# strcache buffers: 1 (0) / strings = 27 / storage = 306 B / avg = 11 B
+# current buf: size = 8162 B / used = 306 B / count = 27 / avg = 11 B
 
-# strcache performance: lookups = 22 / hit rate = 13%
+# strcache performance: lookups = 30 / hit rate = 10%
 # hash-table stats:
-# Load=19/8192=0%, Rehash=0, Collisions=1/22=5%
-# Finished Make data base on Fri Jul  1 13:13:36 2022
+ 
+# Load=27/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Thu Jul 28 19:11:31 2022
 
  
