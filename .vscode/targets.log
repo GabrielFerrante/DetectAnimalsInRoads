@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jul 28 19:11:31 2022
+# Make data base, printed on Tue Aug  2 13:49:36 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:43855
+JOURNAL_STREAM = 8:52787
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -67,7 +67,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 LC_CTYPE = pt_BR.UTF-8
 # environment
-MANAGERPID = 1650
+MANAGERPID = 1699
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -83,7 +83,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1924,unix/usp-XPS-8940:/tmp/.ICE-unix/1924
+SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1974,unix/usp-XPS-8940:/tmp/.ICE-unix/1974
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -91,7 +91,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 28b82e61d91d4534bcf96e52028c6261
+INVOCATION_ID = c8debd7edb59497d89f83660f7eed5eb
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -101,7 +101,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 58581
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4141
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,7 +113,7 @@ PWD = /media/usp/DATA/GabrielSFerrante/PROJETO/DetectAnimalsInRoads
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1889
+SSH_AGENT_PID = 1939
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -227,7 +227,7 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 58581
+VSCODE_PID = 4141
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -280,6 +280,7 @@ makefile:
 GNUmakefile:
 #  Implicit rule search has been done.
 #  File does not exist.
+ 
 #  File has been updated.
 #  Failed to be updated.
 
@@ -296,8 +297,7 @@ GNUmakefile:
 
 # strcache performance: lookups = 30 / hit rate = 10%
 # hash-table stats:
- 
 # Load=27/8192=0%, Rehash=0, Collisions=1/30=3%
-# Finished Make data base on Thu Jul 28 19:11:31 2022
+# Finished Make data base on Tue Aug  2 13:49:36 2022
 
  
