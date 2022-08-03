@@ -1,6 +1,4 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-make: *** No rule to make target 'all'.  Stop.
-
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -8,7 +6,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Aug  2 13:49:36 2022
+# Make data base, printed on Wed Aug  3 15:13:30 2022
 
 # Variables
 
@@ -101,7 +99,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4141
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2530998
 # automatic
 %F = $(notdir $%)
 # environment
@@ -227,7 +225,7 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4141
+VSCODE_PID = 2530998
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -239,9 +237,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 45457): 19 files, no impossibilities.
+# . (device 2050, inode 45457): 22 files, no impossibilities.
 
-# 19 files, no impossibilities in 1 directories.
+# 22 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -280,7 +278,6 @@ makefile:
 GNUmakefile:
 #  Implicit rule search has been done.
 #  File does not exist.
- 
 #  File has been updated.
 #  Failed to be updated.
 
@@ -292,12 +289,15 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 306 B / avg = 11 B
-# current buf: size = 8162 B / used = 306 B / count = 27 / avg = 11 B
+# strcache buffers: 1 (0) / strings = 30 / storage = 334 B / avg = 11 B
+# current buf: size = 8162 B / used = 334 B / count = 30 / avg = 11 B
 
-# strcache performance: lookups = 30 / hit rate = 10%
+# strcache performance: lookups = 33 / hit rate = 9%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=1/30=3%
-# Finished Make data base on Tue Aug  2 13:49:36 2022
+ 
+make: *** No rule to make target 'all'.  Stop.
+
+# Load=30/8192=0%, Rehash=0, Collisions=1/33=3%
+# Finished Make data base on Wed Aug  3 15:13:30 2022
 
  
