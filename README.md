@@ -135,50 +135,5 @@ TESTE A GPU
 python3 TestGPU.py
 
 
-# REALIZAR O TREINAMENTO COM DARKNET
 
-Clone o Darknet https://github.com/AlexeyAB/darknet
-
-
-transferir as imagens do repositório BRA-Dataset (realizar o clone)
-https://github.com/GabrielFerrante/BRA-Dataset/
-
-acessar a pasta Dataset
-
-Executar o arquivo create_train.py para criar o arquivo TXT para o Darknet
-
-Executar o arquivo compactImages.py para criar um ZIP para o treinamento.
-
-mova o .ZIP para o diretório raiz deste repositório
-
-sudo mv zipWithObjs.zip /d/youruser/DetectorAnimalsInRoads
-
-Copie o TXT train.txt
-
-sudo cp train.txt /d/youruser/DetectorAnimalsInRoads/Darknet/data
-
-Crie a pasta 'images' na raiz do darknet
-execute o DescompactZip.py 
-
-Execute o comando dentro do diretorio images
-
-sudo cp *.txt ./data/labels/
-
-baixe o peso indicado no Darknet para a tranferência e coloque na raiz do Darknet
-
-Copie o obj.data e obj.names para Darknet/data/
-
-EXECUTAR O TREINAMENTO COM -mAP
-
-cd darknet
-
-./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg yolov4.conv.137
-
-CASO O TREINAMENTO PARE, CONTINUE DA ONDE PAROU
-
-./darknet detector train data/obj.data cfg/yoloForBRADataset.cfg backup/yoloForBRADataset_last.weights -map
-
-
-RETIRAR AS MÉTRICAS
-./darknet detector map data/obj.data cfg/yoloForBRADataset.cfg backup/yoloForBRADataset_final.weights
 
