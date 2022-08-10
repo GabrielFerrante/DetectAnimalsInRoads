@@ -11,3 +11,5 @@ YoloV4Scaled-Model/images/
 YoloV4Scaled-Model/labels/
 YoloX-Model/Dataset/
 YoloX-Model/Dataset_COCO_format/
+SSD-Model/Dataset/
+YoloV7-Model/BRA-Dataset/

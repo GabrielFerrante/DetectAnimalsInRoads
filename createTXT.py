@@ -10,13 +10,13 @@ def createTrain():
 
     
         
-    pastaTrain = f'./YoloX-Model/Dataset/images/train/'
-    pastaValid = f'./YoloX-Model/Dataset/images/val/'
+    pastaTrain = f'./YoloV7-Model/BRA-Dataset/images/train/'
+    pastaValid = f'./YoloV7-Model/BRA-Dataset/images/val/'
     for diretorio, subpastas, arquivos in os.walk(pastaTrain):
         for arquivo in arquivos:
             if arquivo.endswith(".jpg"):
                 print(arquivo)
-                imagensTrain.append(f"../Dataset/images/train/" + arquivo)
+                imagensTrain.append(f"../BRA-Dataset/images/train/" + arquivo)
             
     for diretorio, subpastas, arquivos in os.walk(pastaValid):
         contador = 0
@@ -24,7 +24,7 @@ def createTrain():
             if arquivo.endswith(".jpg"):
                 contador = contador + 1
                 print(contador)
-                imagensValid.append(f"../Dataset/images/val/" + arquivo)
+                imagensValid.append(f"../BRA-Dataset/images/val/" + arquivo)
 
     with open("train.txt", "w") as outfile:
         for img in imagensTrain:

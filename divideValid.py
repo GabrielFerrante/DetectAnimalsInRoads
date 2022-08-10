@@ -9,7 +9,7 @@ def createValid():
     # o que o codigo abaixo faz: adiciona o nome e caminho de todos as fotos (.jpg) em um txt
     
         
-    pasta = f'./YoloX-Model/Dataset/images/train'
+    pasta = f'./YoloV7-Model/BRA-Dataset/images/train'
     animals = ["anta", "jaguarundi", "loboGuara", "oncaParda", "tamanduaBandeira"]
     
 
@@ -27,13 +27,13 @@ def createValid():
                         aux.append(arquivo)
                 for arquivo in aux[int(0.8 * len(aux)):]:
                     if arquivo.endswith(".jpg"):
-                        os.replace(f"{pasta}/{arquivo}", f"./YoloX-Model/Dataset/images/val/{arquivo}")
+                        os.replace(f"{pasta}/{arquivo}", f"./YoloV7-Model/BRA-Dataset/images/val/{arquivo}")
                    
                
     
 
 def getValidImages():
-    pastaVal = f"./YoloX-Model/Dataset/images/val/"
+    pastaVal = f"./YoloV7-Model/BRA-Dataset/images/val/"
     imagesValida = []
     for diretorio, subpastas, arquivos in os.walk(pastaVal):
         for arquivo in arquivos:
@@ -43,7 +43,7 @@ def getValidImages():
 def getValidLabels(imagens):
 
     print(len(imagens))
-    pasta = f'./YoloX-Model/Dataset/images/train'
+    pasta = f"./YoloV7-Model/BRA-Dataset/images/train"
         
     for diretorio, subpastas, arquivos in os.walk(pasta):
         if len(arquivos) == 0:
@@ -51,7 +51,7 @@ def getValidLabels(imagens):
         else:
             for arquivo in imagens:
                 arquivo1 = arquivo.replace(".jpg",".txt")
-                os.replace(f"{pasta}/{arquivo1}", f"./YoloX-Model/Dataset/images/val/{arquivo1}") 
+                os.replace(f"{pasta}/{arquivo1}", f"./YoloV7-Model/BRA-Dataset/images/val/{arquivo1}") 
                 
 
 
