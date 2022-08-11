@@ -6,7 +6,7 @@ Using the BRA-Dataset, a specific dataset about these animals, the detectors wer
 This project is a master's project in computer science and computational mathematics at the University of São Paulo (PPG-CCMC, ICMC-USP)
 
 <details open>
-<summary>Important Links </summary>
+<summary>Important Links (Visit the WIKI page)</summary>
   
 - [INSTALL CUDA, OPENCV4 and cuDNN]
   
