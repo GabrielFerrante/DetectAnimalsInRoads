@@ -13,3 +13,6 @@ YoloX-Model/Dataset/
 YoloX-Model/Dataset_COCO_format/
 SSD-Model/Dataset/
 YoloV7-Model/BRA-Dataset/
+BRA-Dataset_COCO_format/
+BRA-Dataset/
+BRA-Dataset_VOC_format/
