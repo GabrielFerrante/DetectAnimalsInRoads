@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Fri Aug 19 13:58:27 2022
+# Make data base, printed on Mon Aug 29 16:07:30 2022
 
 # Variables
 
@@ -189,6 +191,8 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = pt_BR.UTF-8
 # environment
+NO_AT_BRIDGE = 1
+# environment
 CUDA_HOST_COMPILER = /usr/bin/gcc-9.4
 # environment
 QT_ACCESSIBILITY = 1
@@ -235,7 +239,7 @@ VSCODE_PID = 8108
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=20/134=15%
+# Load=113/1024=11%, Rehash=0, Collisions=20/135=15%
 
 # Pattern-specific Variable Values
 
@@ -288,6 +292,7 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
+ 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -295,15 +300,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 39 / storage = 479 B / avg = 12 B
-# current buf: size = 8162 B / used = 479 B / count = 39 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 39 / storage = 488 B / avg = 12 B
+# current buf: size = 8162 B / used = 488 B / count = 39 / avg = 12 B
 
 # strcache performance: lookups = 42 / hit rate = 7%
 # hash-table stats:
- 
-make: *** No rule to make target 'all'.  Stop.
-
 # Load=39/8192=0%, Rehash=0, Collisions=1/42=2%
-# Finished Make data base on Fri Aug 19 13:58:27 2022
+# Finished Make data base on Mon Aug 29 16:07:30 2022
 
  

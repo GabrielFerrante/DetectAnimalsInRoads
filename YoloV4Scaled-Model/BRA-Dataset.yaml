@@ -1,5 +1,5 @@
-train: ../images/train # 118k images
-val: ../images/val # 5k images
+train: ../../BRA-Dataset/images/train # 118k images
+val: ../../BRA-Dataset/images/val # 5k images
 test:  
 
 # Classes
