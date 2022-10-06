@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Aug 29 16:07:30 2022
+# Make data base, printed on Tue Sep  6 14:47:29 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:51701
+JOURNAL_STREAM = 8:49473
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -67,7 +67,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 LC_CTYPE = pt_BR.UTF-8
 # environment
-MANAGERPID = 1622
+MANAGERPID = 1693
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -83,7 +83,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1899,unix/usp-XPS-8940:/tmp/.ICE-unix/1899
+SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1968,unix/usp-XPS-8940:/tmp/.ICE-unix/1968
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -91,7 +91,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = c43de5ab3687489c861103569f854672
+INVOCATION_ID = 300ac3bbe2f94d7d9ee3236c2781f42e
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -101,7 +101,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 8108
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6757
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,7 +113,7 @@ PWD = /media/usp/DATA/GabrielSFerrante/PROJETO/DetectAnimalsInRoads
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1864
+SSH_AGENT_PID = 1933
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -191,8 +191,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = pt_BR.UTF-8
 # environment
-NO_AT_BRIDGE = 1
-# environment
 CUDA_HOST_COMPILER = /usr/bin/gcc-9.4
 # environment
 QT_ACCESSIBILITY = 1
@@ -235,11 +233,11 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 8108
+VSCODE_PID = 6757
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=113/1024=11%, Rehash=0, Collisions=20/135=15%
+# Load=112/1024=11%, Rehash=0, Collisions=20/134=15%
 
 # Pattern-specific Variable Values
 
@@ -247,9 +245,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 45457): 31 files, no impossibilities.
+# . (device 2050, inode 45457): 28 files, no impossibilities.
 
-# 31 files, no impossibilities in 1 directories.
+# 28 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -286,13 +284,13 @@ makefile:
 
 # Not a target:
 GNUmakefile:
+ 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -300,12 +298,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 39 / storage = 488 B / avg = 12 B
-# current buf: size = 8162 B / used = 488 B / count = 39 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 36 / storage = 443 B / avg = 12 B
+# current buf: size = 8162 B / used = 443 B / count = 36 / avg = 12 B
 
-# strcache performance: lookups = 42 / hit rate = 7%
+# strcache performance: lookups = 39 / hit rate = 7%
 # hash-table stats:
-# Load=39/8192=0%, Rehash=0, Collisions=1/42=2%
-# Finished Make data base on Mon Aug 29 16:07:30 2022
+# Load=36/8192=0%, Rehash=0, Collisions=1/39=3%
+# Finished Make data base on Tue Sep  6 14:47:29 2022
 
  
