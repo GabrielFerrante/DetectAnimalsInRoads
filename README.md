@@ -24,6 +24,5 @@ This project is a master's project in computer science and computational mathema
 
 - [RetinaNet]
   
-- [MORE MODELS]
 
 </details>
