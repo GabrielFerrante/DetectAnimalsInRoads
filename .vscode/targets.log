@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Sep  6 14:47:29 2022
+# Make data base, printed on Mon Nov 28 18:56:28 2022
 
 # Variables
 
@@ -47,7 +47,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:49473
+JOURNAL_STREAM = 8:49658
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -67,7 +67,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 LC_CTYPE = pt_BR.UTF-8
 # environment
-MANAGERPID = 1693
+MANAGERPID = 1502
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -83,7 +83,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1968,unix/usp-XPS-8940:/tmp/.ICE-unix/1968
+SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1778,unix/usp-XPS-8940:/tmp/.ICE-unix/1778
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -91,7 +91,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 300ac3bbe2f94d7d9ee3236c2781f42e
+INVOCATION_ID = 45ac5026357c4095aa848bb5012faf02
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -101,7 +101,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 6757
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2354
 # automatic
 %F = $(notdir $%)
 # environment
@@ -113,7 +113,7 @@ PWD = /media/usp/DATA/GabrielSFerrante/PROJETO/DetectAnimalsInRoads
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1933
+SSH_AGENT_PID = 1743
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -127,7 +127,7 @@ LD_LIBRARY_PATH = /usr/local/cuda-11.4/lib64:/usr/local/cuda-11.4/lib:
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/usp/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
+VSCODE_CODE_CACHE_PATH = /home/usp/.config/Code/CachedData/6261075646f055b99068d3688932416f2346dd3b
 # environment
 LOGNAME = usp
 # environment
@@ -175,7 +175,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-42117c84-1.70.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-42117c84-1.73.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -233,7 +233,7 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 6757
+VSCODE_PID = 2354
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
@@ -245,9 +245,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 45457): 28 files, no impossibilities.
+# . (device 2050, inode 45457): 30 files, no impossibilities.
 
-# 28 files, no impossibilities in 1 directories.
+# 30 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -284,13 +284,13 @@ makefile:
 
 # Not a target:
 GNUmakefile:
- 
 #  Implicit rule search has been done.
 #  File does not exist.
 #  File has been updated.
 #  Failed to be updated.
 
 # files hash-table stats:
+ 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -298,12 +298,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 36 / storage = 443 B / avg = 12 B
-# current buf: size = 8162 B / used = 443 B / count = 36 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 38 / storage = 466 B / avg = 12 B
+# current buf: size = 8162 B / used = 466 B / count = 38 / avg = 12 B
 
-# strcache performance: lookups = 39 / hit rate = 7%
+# strcache performance: lookups = 41 / hit rate = 7%
 # hash-table stats:
-# Load=36/8192=0%, Rehash=0, Collisions=1/39=3%
-# Finished Make data base on Tue Sep  6 14:47:29 2022
+# Load=38/8192=0%, Rehash=0, Collisions=1/41=2%
+# Finished Make data base on Mon Nov 28 18:56:28 2022
 
  

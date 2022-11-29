@@ -16,7 +16,7 @@ def createTrain():
         for arquivo in arquivos:
             if arquivo.endswith(".jpg"):
                 print(arquivo)
-                imagensTrain.append(f"VOC2007/JPEGImages/" + arquivo)
+                imagensTrain.append(f"../../BRA-Dataset/images/train/" + arquivo)
             
     for diretorio, subpastas, arquivos in os.walk(pastaValid):
         contador = 0
@@ -24,7 +24,7 @@ def createTrain():
             if arquivo.endswith(".jpg"):
                 contador = contador + 1
                 print(contador)
-                imagensValid.append(f"VOC2007/JPEGImages/" + arquivo)
+                imagensValid.append(f"../../BRA-Dataset/images/val/" + arquivo)
 
     with open("train.txt", "w") as outfile:
         for img in imagensTrain:
@@ -32,7 +32,7 @@ def createTrain():
             outfile.write("\n")            
         outfile.close()
     
-    with open("test.txt", "w") as outfile:
+    with open("valid.txt", "w") as outfile:
         for img in imagensValid:
             outfile.write(img)
             outfile.write("\n")            

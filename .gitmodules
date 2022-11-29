@@ -1,0 +1,3 @@
+[submodule "YOLOS"]
+	path = YOLOS
+	url = https://github.com/hustvl/YOLOS
