@@ -21,8 +21,6 @@ This project is a master's project in computer science and computational mathema
 - [YOLOX]
 
 - [YOLOV7]
-
-- [RetinaNet]
   
 
 </details>
