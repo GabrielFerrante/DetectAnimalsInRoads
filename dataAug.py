@@ -33,7 +33,7 @@ def horizontal_shift(img, nome, ratio=0.0):
     if ratio < 0:
         img = img[:, int(-1*to_shift):, :]
     img = fill(img, h, w)
-    cv2.imwrite("HS-"+nome, img)
+    cv2.imwrite("./BRA-Dataset/images/train/HS-"+nome, img)
 
 def vertical_shift(img, nome, ratio=0.0):
     if ratio > 1 or ratio < 0:
@@ -47,7 +47,7 @@ def vertical_shift(img, nome, ratio=0.0):
     if ratio < 0:
         img = img[int(-1*to_shift):, :, :]
     img = fill(img, h, w)
-    cv2.imwrite("VS-"+nome, img)
+    cv2.imwrite("./BRA-Dataset/images/train/VS-"+nome, img)
 
 def brightness(img, low, high, nome):
     value = random.uniform(low, high)
@@ -59,19 +59,19 @@ def brightness(img, low, high, nome):
     hsv[:,:,2][hsv[:,:,2]>255]  = 255
     hsv = np.array(hsv, dtype = np.uint8)
     img = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
-    cv2.imwrite("BG-"+nome, img)
+    cv2.imwrite("./BRA-Dataset/images/train/BG-"+nome, img)
 
 def horizontal_flip(img, flag, nome):
     if flag:
         img = cv2.flip(img, 1)
-        cv2.imwrite("HF-"+nome, img)
+        cv2.imwrite("./BRA-Dataset/images/train/HF-"+nome, img)
     else:
         return img
 
 def vertical_flip(img, flag, nome):
     if flag:
         img = cv2.flip(img, 0)
-        cv2.imwrite("VF-"+nome, img)
+        cv2.imwrite("./BRA-Dataset/images/train/VF-"+nome, img)
     else:
         return img
 
@@ -80,13 +80,13 @@ def rotation(img, angle, nome):
     h, w = img.shape[:2]
     M = cv2.getRotationMatrix2D((int(w/2), int(h/2)), angle, 1)
     img = cv2.warpAffine(img, M, (w, h))
-    cv2.imwrite("RT-"+nome, img)
+    cv2.imwrite("./BRA-Dataset/images/train/RT-"+nome, img)
 
 def noise(img, nome):
     img = random_noise(img)
     img = img_as_ubyte(img)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
-    cv2.imwrite('NS-'+nome, img)
+    cv2.imwrite('./BRA-Dataset/images/train/NS-'+nome, img)
     
 
 #./BRA-Dataset/images/train/
@@ -98,12 +98,12 @@ for diretorio, subpastas, arquivos in os.walk(pasta):
         print("N tem imagens no images")
     else:
         for arquivo in arquivos:
-            if arquivo.endswith(".jpg") and arquivo=='anta00000000.jpg':
+            if arquivo.endswith(".jpg"):
                 img = cv2.imread('./BRA-Dataset/images/train/'+arquivo)
                 horizontal_shift(img, arquivo,0.7)
                 vertical_shift(img, arquivo, 0.6)
                 brightness(img, 0.5, 4, arquivo)
                 horizontal_flip(img, True, arquivo)
                 vertical_flip(img, True, arquivo)
-                rotation(img, 30, arquivo)
+                rotation(img, 45, arquivo)
                 noise(img, arquivo)

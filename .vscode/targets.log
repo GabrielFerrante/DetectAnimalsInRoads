@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Dec 13 14:41:15 2022
+# Make data base, printed on Tue Feb  7 14:29:46 2023
 
 # Variables
 
@@ -45,9 +45,7 @@ SHELL = /bin/sh
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
-_ = /usr/share/code/code
-# environment
-JOURNAL_STREAM = 8:54310
+JOURNAL_STREAM = 8:49129
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile
@@ -65,9 +63,9 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/d
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-LC_CTYPE = pt_BR.UTF-8
+_ = /usr/share/code/code
 # environment
-MANAGERPID = 1569
+MANAGERPID = 1708
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -77,15 +75,15 @@ VSCODE_CWD = /home/usp
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/cuda-11.4/bin:/home/usp/anaconda3/bin:/home/usp/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+PATH = /home/usp/.local/bin:/usr/local/cuda-11.4/bin:/home/usp/anaconda3/bin:/home/usp/anaconda3/condabin:/home/usp/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-GJS_DEBUG_OUTPUT = stderr
-# environment
-SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1785,unix/usp-XPS-8940:/tmp/.ICE-unix/1785
+SESSION_MANAGER = local/usp-XPS-8940:@/tmp/.ICE-unix/1924,unix/usp-XPS-8940:/tmp/.ICE-unix/1924
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
+# environment
+LC_MONETARY = pt_BR.UTF-8
 # environment
 CONDA_PREFIX = /home/usp/anaconda3
 # environment
@@ -93,17 +91,15 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = a51b0109de7948eabd4e65c1477d5e08
+INVOCATION_ID = 0e03b23096f24dba98b9f5beb95a994d
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# environment
-LS_COLORS = 
 # environment
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4335
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2674
 # automatic
 %F = $(notdir $%)
 # environment
@@ -115,7 +111,7 @@ PWD = /media/usp/DATA/GabrielSFerrante/PROJETO/DetectAnimalsInRoads
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1750
+SSH_AGENT_PID = 1889
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -129,7 +125,7 @@ LD_LIBRARY_PATH = /home/anaconda3/lib:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/usp/.config/Code/CachedData/5235c6bb189b60b01b1f49062f4ffa42384f8c91
+VSCODE_CODE_CACHE_PATH = /home/usp/.config/Code/CachedData/e2816fe719a4026ffa1ee0189dc89bdfdbafb164
 # environment
 LOGNAME = usp
 # environment
@@ -163,11 +159,13 @@ MAKE_VERSION := 4.2.1
 # environment
 USER = usp
 # environment
-LC_MONETARY = pt_BR.UTF-8
+LC_CTYPE = pt_BR.UTF-8
 # makefile
 .DEFAULT_GOAL := 
 # environment
 XDG_CURRENT_DESKTOP = Unity
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -181,7 +179,7 @@ MAKE_COMMAND := make
 # automatic
 *F = $(notdir $*)
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-42117c84-1.74.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-42117c84-1.75.0-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -194,6 +192,8 @@ MFLAGS = -pqrR
 GDK_BACKEND = x11
 # environment
 LC_PAPER = pt_BR.UTF-8
+# environment
+LC_IDENTIFICATION = pt_BR.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
 # environment
@@ -217,15 +217,13 @@ GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # default
 SUFFIXES := 
 # environment
-_CE_M = 
-# environment
 CHROME_DESKTOP = code-url-handler.desktop
 # environment
 WINDOWPATH = 2
 # default
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
-LC_IDENTIFICATION = pt_BR.UTF-8
+GJS_DEBUG_OUTPUT = stderr
 # default
 .RECIPEPREFIX := 
 # environment
@@ -233,11 +231,9 @@ LC_ADDRESS = pt_BR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4335
-# environment
-_CE_CONDA = 
+VSCODE_PID = 2674
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=20/134=15%
+# Load=110/1024=11%, Rehash=0, Collisions=20/132=15%
 
 # Pattern-specific Variable Values
 
@@ -245,9 +241,9 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 2050, inode 45457): 31 files, no impossibilities.
+# . (device 2050, inode 45457): 32 files, no impossibilities.
 
-# 31 files, no impossibilities in 1 directories.
+# 32 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -290,7 +286,6 @@ GNUmakefile:
 #  Failed to be updated.
 
 # files hash-table stats:
- 
 # Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
 # VPATH Search Paths
 
@@ -298,12 +293,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 39 / storage = 473 B / avg = 12 B
-# current buf: size = 8162 B / used = 473 B / count = 39 / avg = 12 B
+ 
+# strcache buffers: 1 (0) / strings = 40 / storage = 475 B / avg = 11 B
+# current buf: size = 8162 B / used = 475 B / count = 40 / avg = 11 B
 
-# strcache performance: lookups = 42 / hit rate = 7%
+# strcache performance: lookups = 43 / hit rate = 6%
 # hash-table stats:
-# Load=39/8192=0%, Rehash=0, Collisions=1/42=2%
-# Finished Make data base on Tue Dec 13 14:41:15 2022
+# Load=40/8192=0%, Rehash=0, Collisions=1/43=2%
+# Finished Make data base on Tue Feb  7 14:29:46 2023
 
  

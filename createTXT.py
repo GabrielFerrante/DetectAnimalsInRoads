@@ -11,12 +11,12 @@ def createTrain():
     
         
     pastaTrain = f'./BRA-Dataset/images/train/'
-    pastaValid = f'./BRA-Dataset/images/val/'
+    pastaValid = f'./BRA-Dataset/images/valid/'
     for diretorio, subpastas, arquivos in os.walk(pastaTrain):
         for arquivo in arquivos:
             if arquivo.endswith(".jpg"):
                 print(arquivo)
-                imagensTrain.append(f"../../BRA-Dataset/images/train/" + arquivo)
+                imagensTrain.append(f"images/train/" + arquivo)
             
     for diretorio, subpastas, arquivos in os.walk(pastaValid):
         contador = 0
@@ -24,7 +24,7 @@ def createTrain():
             if arquivo.endswith(".jpg"):
                 contador = contador + 1
                 print(contador)
-                imagensValid.append(f"../../BRA-Dataset/images/val/" + arquivo)
+                imagensValid.append(f"images/valid/" + arquivo)
 
     with open("train.txt", "w") as outfile:
         for img in imagensTrain:

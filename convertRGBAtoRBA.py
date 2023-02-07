@@ -1,8 +1,8 @@
 import PIL.Image
 import os
 
-pastaTrain = f"./Dataset_COCO_format/images/train2017/"
-pastaValid = f'./Dataset_COCO_format/images/val2017/'
+pastaTrain = f"./BRA-Dataset_COCO_format/images/train2017/"
+pastaValid = f'./BRA-Dataset_COCO_format/images/val2017/'
 for diretorio, subpastas, arquivos in os.walk(pastaTrain):
         for arquivo in arquivos:
             if arquivo.endswith(".jpg"):
