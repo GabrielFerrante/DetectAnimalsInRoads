@@ -3,6 +3,7 @@
 *.cache
 *.pt
 *.pth
+*.mp4
 *vscode
 RCNN-Model/animais/
 YoloV5-Model/images/
