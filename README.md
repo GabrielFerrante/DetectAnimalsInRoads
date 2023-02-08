@@ -1,7 +1,7 @@
 # DetectAnimalsInRoads
 
 Single-stage detectors for edge computing with CNN architecture to detect animals that suffer the most accidents on Brazilian highways.
-Using the BRA-Dataset, a specific dataset about these animals, the detectors were trained and validated in the laboratory and in controlled locations with real animals.
+Using the BRA-Dataset, a specific dataset about these animals, the detectors were trained and validated in the laboratory with edge devices for edge processing for A.I.
 
 This project is a master's project in computer science and computational mathematics at the University of São Paulo (PPG-CCMC, ICMC-USP)
 
@@ -24,3 +24,14 @@ This project is a master's project in computer science and computational mathema
   
 
 </details>
+
+Project Papers:
+
+
+Understanding the state of the Art in Animal detection and classification using computer vision technologies
+    
+    DOI: 10.1109/BigData52589.2021.9672049
+
+Brazilian Road’s Animals (BRA): An Image Dataset of Most Commonly Run Over Animals
+
+    DOI: 10.1109/SIBGRAPI55357.2022.9991774
