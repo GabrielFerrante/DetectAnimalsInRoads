@@ -21,6 +21,8 @@ This project is a master's project in computer science and computational mathema
 - [YOLOX]
 
 - [YOLOV7]
+
+For download weights contact the author !
   
 
 </details>
