@@ -37,3 +37,7 @@ Understanding the state of the Art in Animal detection and classification using 
 Brazilian Road’s Animals (BRA): An Image Dataset of Most Commonly Run Over Animals
 
     DOI: 10.1109/SIBGRAPI55357.2022.9991774
+
+Evaluating YOLO architectures for detecting road killed endangered Brazilian animals
+
+    DOI: 10.1038/s41598-024-52054-y
